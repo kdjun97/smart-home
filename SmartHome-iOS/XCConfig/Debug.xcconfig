@@ -1,0 +1,4 @@
+#include "./MQTTSetting.xcconfig"
+
+BUNDLE_IDENTIFIER = com.jumy.smart-home
+BUNDLE_NAME = 동준쓰마트홈
