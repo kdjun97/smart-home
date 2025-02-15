@@ -5,7 +5,13 @@ import PackageDescription
     import ProjectDescription
 
     let packageSettings = PackageSettings(
-        productTypes: [:]
+        productTypes: [:],
+        baseSettings: .settings(
+            configurations: [
+                .debug(name: .debug),
+                .release(name: .release)
+            ]
+        )
     )
 #endif
 
