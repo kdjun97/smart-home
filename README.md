@@ -2,12 +2,12 @@
 
 집의 전력을 모니터링 및 컨트롤 해보기.  
 
-## 들어가기 전...  
+## 🤪 들어가기 전...  
 
 [기능 검증 프로젝트](https://github.com/kdjun97/swift-mqtt-test)  
 [Blog Link](https://kdjun97.github.io/iot/smart-home-project/)  
 
-## 개발 환경  
+## 😎 개발 환경  
 
 Raspberry-Pi5 OS: **Ubuntu 24.04 LTS 64-bit**  
 mosquitto: **2.0.18**  
@@ -21,15 +21,15 @@ CocoaMQTT
 
 ---  
 
-## 흐름 설계  
+## 🕸️ 흐름 설계  
 
 ![MQTT Flow](/Assets/mqtt_flow.jpeg)  
 
 ---  
 
-## Raspberry Pi5 설정  
+## 🥧 Raspberry Pi5 설정  
 
-#### 필수 패키지 설치  
+#### 🔧 필수 패키지 설치  
 
 `mosquitto`, `paho-mqtt`(확인용), `python` 설치  
 
@@ -45,7 +45,7 @@ pip install paho-mqtt
 
 이번 프로젝트에서는 pub, sub이 제대로 동작하는지 확인하기 위해 `paho-mqtt`를 사용 (저번 검증 프로젝트에서 썼기 때문)  
 
-#### mosquitto.conf 설정  
+#### 🦟 mosquitto.conf 설정  
 
 [mosquitto.conf source code](https://github.com/kdjun97/smart-home/blob/development/Mosquitto/mosquitto.conf)  
 
@@ -61,7 +61,7 @@ pip install paho-mqtt
     - `$ mosquitto_passwd -c {myPasswordFilePath} username`: 비밀번호 파일을 생성.  
 - `password_file {myPasswordFilePath}`: 사용자 인증을 위한 비밀번호 파일 경로 지정.  
 
-## mosquitto 실행  
+## 🦟 mosquitto 실행  
 
 **mosquitto service 실행(background)**  
 - 시작  
@@ -84,7 +84,7 @@ cat {yourLogPath}
 
 ---  
 
-## smart plug 설정  
+## 🔌 smart plug 설정  
 
 **shelly 설정**  
 
