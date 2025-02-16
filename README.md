@@ -23,7 +23,7 @@ CocoaMQTT
 
 ## 흐름 설계  
 
-![MQTT Flow](/smart-home/Assets/mqtt_flow.jpeg)  
+![MQTT Flow](/Assets/mqtt_flow.jpeg)  
 
 ---  
 
